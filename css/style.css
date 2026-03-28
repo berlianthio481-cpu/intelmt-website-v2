@@ -1053,9 +1053,11 @@ body {
 .qr-image {
     width: 120px;
     height: 120px;
-    object-fit: contain;
+    object-fit: cover;
     margin: 0 auto 8px;
     display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .qr-box span {
