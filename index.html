@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>福州智医科技股份有限公司 - 为患者解忧，让医院更智慧</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 顶部通栏 -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <span>健康之路 HK2587 集团旗下子公司</span>
+            <span class="hotline">健康咨询热线：400-XXX-XXXX</span>
+        </div>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <polygon points="12,78 35,18 78,18 55,78" fill="#62D0EC"/>
+                    <polygon points="26,88 49,28 92,28 69,88" fill="#35ADF3"/>
+                    <path d="M 45 43 h 10 v -10 h 10 v 10 h 10 v 10 h -10 v 10 h -10 v -10 h -10 z" fill="#FFFFFF"/>
+                </svg>
+                <div class="logo-text-wrapper">
+                    <span class="logo-text">智医科技</span>
+                    <span class="logo-sub">Intelmt.com</span>
+                </div>
+            </div>
+            
+            <div class="nav-menu">
+                <a href="#" class="nav-link active">首页</a>
+                
+                <div class="nav-item" onmouseenter="showMegaMenu('solutions')" onmouseleave="hideMegaMenu('solutions')">
+                    <a href="#solutions" class="nav-link">解决方案</a>
+                    <div class="mega-menu" id="mega-solutions">
+                        <div class="mega-menu-content">
+                            <div class="mega-col">
+                                <h4>核心业务线</h4>
+                                <ul>
+                                    <li><a href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect width="20" height="20" rx="4" fill="#35ADF3" fill-opacity="0.1"/><path d="M10 4V16M4 10H16" stroke="#35ADF3" stroke-width="2"/></svg> 就医全旅程</a></li>
+                                    <li><a href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect width="20" height="20" rx="4" fill="#62D0EC" fill-opacity="0.1"/><circle cx="10" cy="8" r="4" stroke="#62D0EC" stroke-width="2"/><path d="M6 14C6 14 8 12 10 12C12 12 14 14 14 14" stroke="#62D0EC" stroke-width="2"/></svg> 患者管理</a></li>
+                                    <li><a href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect width="20" height="20" rx="4" fill="#35ADF3" fill-opacity="0.1"/><rect x="4" y="4" width="12" height="12" rx="2" stroke="#35ADF3" stroke-width="2"/><path d="M8 8L10 10L12 8" stroke="#35ADF3" stroke-width="1.5"/></svg> 互联网医院</a></li>
+                                    <li><a href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect width="20" height="20" rx="4" fill="#62D0EC" fill-opacity="0.1"/><path d="M6 7H14M6 10H14M6 13H11" stroke="#62D0EC" stroke-width="2"/><circle cx="13" cy="12" r="2" stroke="#62D0EC" stroke-width="1.5"/></svg> 智慧服务评级</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-feature">
+                                <span class="feature-tag">重点推荐</span>
+                                <h3>了解《就医全旅程》解决方案</h3>
+                                <p>为患者提供从院前预约、院中导航到院后随访的全流程数字化指引，全面提升就医体验。</p>
+                                <a href="#" class="feature-link">查看详情 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="2"/></svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="#cases" class="nav-link">客户案例</a>
+                
+                <div class="nav-item" onmouseenter="showMegaMenu('insights')" onmouseleave="hideMegaMenu('insights')">
+                    <a href="#insights" class="nav-link">行业洞察</a>
+                    <div class="mega-menu" id="mega-insights">
+                        <div class="mega-menu-content simple">
+                            <a href="#" class="mega-link"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 2L12 6L16 6L13 10L15 14L10 12L5 14L7 10L4 6L8 6L10 2Z" stroke="#35ADF3" stroke-width="2"/></svg> 智医观点</a>
+                            <a href="#" class="mega-link"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="7" stroke="#62D0EC" stroke-width="2"/><path d="M10 7V10L12 12" stroke="#62D0EC" stroke-width="2"/></svg> 医疗与互联网</a>
+                            <a href="#" class="mega-link"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M6 10C6 10 8 6 10 6C12 6 14 10 14 10" stroke="#35ADF3" stroke-width="2"/><circle cx="10" cy="13" r="2" fill="#35ADF3"/></svg> 医事双人说</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="nav-item" onmouseenter="showMegaMenu('ecosystem')" onmouseleave="hideMegaMenu('ecosystem')">
+                    <a href="#ecosystem" class="nav-link">智医@共建</a>
+                    <div class="mega-menu" id="mega-ecosystem">
+                        <div class="mega-menu-content simple">
+                            <a href="#" class="mega-link"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 2L12 7L17 7L13 11L15 16L10 13L5 16L7 11L3 7L8 7L10 2Z" stroke="#35ADF3" stroke-width="2"/></svg> 渠道代理政策</a>
+                            <a href="#" class="mega-link"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 14L8 10L12 14L16 6" stroke="#62D0EC" stroke-width="2"/></svg> 投资人关系 (IR)</a>
+                            <a href="#" class="mega-link"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="4" y="6" width="12" height="10" rx="2" stroke="#35ADF3" stroke-width="2"/><path d="M8 10H12M8 12H12" stroke="#35ADF3" stroke-width="2"/></svg> 人才招聘</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="nav-item" onmouseenter="showMegaMenu('about')" onmouseleave="hideMegaMenu('about')">
+                    <a href="#about" class="nav-link">关于我们</a>
+                    <div class="mega-menu" id="mega-about">
+                        <div class="mega-menu-content simple">
+                            <a href="#" class="mega-link"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="7" stroke="#35ADF3" stroke-width="2"/><path d="M10 7V10L12 12" stroke="#35ADF3" stroke-width="2"/></svg> 了解智医</a>
+                            <a href="#" class="mega-link"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="4" y="4" width="12" height="12" rx="2" stroke="#62D0EC" stroke-width="2"/><path d="M7 8H13M7 10H13M7 12H10" stroke="#62D0EC" stroke-width="2"/></svg> 公司动态</a>
+                            <a href="#" class="mega-link"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 2L12 6L16 6L13 10L15 14L10 12L5 14L7 10L4 6L8 6L10 2Z" stroke="#35ADF3" stroke-width="2"/></svg> 荣誉与资质</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="btn-consult">在线咨询</button>
+            
+            <div class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero 首屏 -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-glow hero-glow-1"></div>
+        <div class="hero-glow hero-glow-2"></div>
+        
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>为患者解忧<br><span class="gradient-text">让医院更智慧</span></h1>
+                <p>全国领先的智慧患者服务整体解决方案提供商，提供强大的患者运营 AI 能力，重塑医疗服务全流程体验。</p>
+                <div class="hero-buttons">
+                    <a href="#solutions" class="btn btn-primary">了解解决方案</a>
+                    <a href="#contact" class="btn btn-outline">立即咨询</a>
+                </div>
+            </div>
+            
+            <div class="hero-product">
+                <div class="product-window">
+                    <div class="window-header">
+                        <div class="window-dots">
+                            <span class="dot-red"></span>
+                            <span class="dot-yellow"></span>
+                            <span class="dot-green"></span>
+                        </div>
+                        <span class="window-title">智医科技管理平台</span>
+                    </div>
+                    <div class="window-content">
+                        <h3>智慧医疗全流程</h3>
+                        <div class="feature-tabs">
+                            <span class="tab active">智慧服务</span>
+                            <span class="tab">患者管理</span>
+                            <span class="tab">医院运营</span>
+                        </div>
+                        <div class="feature-showcase">
+                            <div class="feature-icon">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                    <circle cx="24" cy="24" r="20" stroke="#35ADF3" stroke-width="2" stroke-dasharray="4 4"/>
+                                    <path d="M24 14V24L28 28" stroke="#35ADF3" stroke-width="3" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div class="feature-info">
+                                <h4>全流程数字化指引</h4>
+                                <p>支持从预约到随访的全流程应用，全面覆盖诊前、诊中、诊后环节，打造智慧就医体验。</p>
+                                <div class="feature-checks">
+                                    <span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 8L7 11L12 5" stroke="#62D0EC" stroke-width="2"/></svg> 智能分诊导诊</span>
+                                    <span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 8L7 11L12 5" stroke="#62D0EC" stroke-width="2"/></svg> 院内导航</span>
+                                    <span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 8L7 11L12 5" stroke="#62D0EC" stroke-width="2"/></svg> 诊间支付</span>
+                                    <span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 8L7 11L12 5" stroke="#62D0EC" stroke-width="2"/></svg> 报告查询</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="window-actions">
+                            <button class="btn btn-sm btn-primary">产品演示</button>
+                            <button class="btn btn-sm btn-secondary"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="2"/><path d="M8 6V8L10 10" stroke="currentColor" stroke-width="2"/></svg> 观看视频</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 行业洞察预览 -->
+        <div class="insights-preview">
+            <div class="container insights-container">
+                <div class="insights-intro">
+                    <h2>行业洞察</h2>
+                    <div class="insights-divider"></div>
+                </div>
+                <div class="insights-grid">
+                    <a href="#" class="insight-card">
+                        <span class="insight-tag">重磅发布</span>
+                        <h3>智医科技全新版本上线</h3>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M8 6L12 10L8 14" stroke="currentColor" stroke-width="2"/></svg>
+                    </a>
+                    <a href="#" class="insight-card">
+                        <span class="insight-tag">观点</span>
+                        <h3>浅谈人工智能对医疗行业的影响</h3>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M8 6L12 10L8 14" stroke="currentColor" stroke-width="2"/></svg>
+                    </a>
+                    <a href="#" class="insight-card">
+                        <span class="insight-tag">专栏</span>
+                        <h3>聚焦"全专科协同"的家庭医生服务体系</h3>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M8 6L12 10L8 14" stroke="currentColor" stroke-width="2"/></svg>
+                    </a>
+                    <a href="#" class="insight-card">
+                        <span class="insight-tag">聚焦</span>
+                        <h3>解析"技术无边界"如何影响中国医疗资源配置</h3>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M8 6L12 10L8 14" stroke="currentColor" stroke-width="2"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 悬浮联系按钮 -->
+        <a href="#contact" class="float-contact">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2Z" stroke="currentColor" stroke-width="2"/>
+            </svg>
+        </a>
+    </section>
+
+    <!-- 解决方案模块 -->
+    <section class="solutions" id="solutions">
+        <div class="container">
+            <div class="section-header">
+                <h2>核心解决方案矩阵</h2>
+                <div class="section-divider"></div>
+                <p>应用系统 + 运营团队 + 生态资源，提供一站式智慧服务</p>
+            </div>
+            
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="solution-bg"></div>
+                    <div class="solution-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <rect width="32" height="32" rx="8" fill="#35ADF3" fill-opacity="0.1"/>
+                            <path d="M16 8V24M8 16H24" stroke="#35ADF3" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>就医全旅程</h3>
+                    <p>为患者提供从院前预约、院中导航到院后随访的全流程数字化指引，告别拥挤，享受便捷就医体验。</p>
+                    <a href="#" class="solution-link">了解详情 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="2"/></svg></a>
+                </div>
+                
+                <div class="solution-card">
+                    <div class="solution-bg"></div>
+                    <div class="solution-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <rect width="32" height="32" rx="8" fill="#62D0EC" fill-opacity="0.1"/>
+                            <circle cx="16" cy="12" r="6" stroke="#62D0EC" stroke-width="3"/>
+                            <path d="M10 22C10 22 13 18 16 18C19 18 22 22 22 22" stroke="#62D0EC" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>患者管理</h3>
+                    <p>打通企业微信生态，连接医患沟通专线，提供全周期管理工具，提升患者满意度和医院运营效率。</p>
+                    <a href="#" class="solution-link">了解详情 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="2"/></svg></a>
+                </div>
+                
+                <div class="solution-card">
+                    <div class="solution-bg"></div>
+                    <div class="solution-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <rect width="32" height="32" rx="8" fill="#35ADF3" fill-opacity="0.1"/>
+                            <rect x="8" y="8" width="16" height="16" rx="3" stroke="#35ADF3" stroke-width="3"/>
+                            <path d="M12 16L16 20L20 16" stroke="#35ADF3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>互联网医院</h3>
+                    <p>突破服务边界，打造全场景在线、线上线下融合的诊疗服务新业态，为医院拓展服务半径和运营增量。</p>
+                    <a href="#" class="solution-link">了解详情 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="2"/></svg></a>
+                </div>
+                
+                <div class="solution-card">
+                    <div class="solution-bg"></div>
+                    <div class="solution-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <rect width="32" height="32" rx="8" fill="#62D0EC" fill-opacity="0.1"/>
+                            <path d="M10 12H22M10 16H22M10 20H18" stroke="#62D0EC" stroke-width="3" stroke-linecap="round"/>
+                            <circle cx="20" cy="19" r="3" stroke="#62D0EC" stroke-width="2"/>
+                            <path d="M20 17V21M18 19H22" stroke="#62D0EC" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>智慧服务评级 (专项)</h3>
+                    <p>对标先进国家标准，提供电子病历评级、智慧服务评级一站式咨询 + 系统，助力医院高分通过。</p>
+                    <a href="#" class="solution-link">了解详情 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="2"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 客户案例模块 -->
+    <section class="cases" id="cases">
+        <div class="cases-bg" id="casesBg"></div>
+        <div class="container">
+            <div class="section-header">
+                <h2>全国数百家医院的共同选择</h2>
+            </div>
+            
+            <div class="cases-tabs">
+                <button class="case-tab active" onclick="switchCase('comprehensive')">综合医院</button>
+                <button class="case-tab" onclick="switchCase('specialized')">专科医院</button>
+                <button class="case-tab" onclick="switchCase('primary')">基层医疗</button>
+            </div>
+            
+            <div class="cases-display">
+                <div class="case-content" id="caseContent">
+                    <div class="case-badge">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M10 2L12 7L17 7L13 11L15 16L10 13L5 16L7 11L3 7L8 7L10 2Z" fill="#62D0EC"/>
+                        </svg>
+                        <span>XX 省立医院</span>
+                    </div>
+                    <h3 id="caseTitle">突破传统医疗瓶颈，提质增效</h3>
+                    <p id="caseDesc" class="case-description">XX 省立医院通过智医科技的全流程智慧服务平台，将平均候诊时间从 45 分钟减少到 15 分钟，实现患者满意度和运营效率双提升。</p>
+                    <button class="btn btn-outline-white">了解详情</button>
+                </div>
+            </div>
+            
+            <a href="#" class="view-more">查看更多案例 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M8 6L12 10L8 14" stroke="currentColor" stroke-width="2"/></svg></a>
+        </div>
+    </section>
+
+    <!-- 生态共建模块 -->
+    <section class="ecosystem" id="ecosystem">
+        <div class="ecosystem-glow"></div>
+        <div class="container">
+            <div class="section-header">
+                <h2>强强联合，共创医疗生态</h2>
+                <p>与智医同行，共同挖掘"互联网 + 医疗"的无限可能</p>
+            </div>
+            
+            <div class="ecosystem-grid">
+                <div class="eco-card">
+                    <div class="eco-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <circle cx="12" cy="12" r="10" stroke="#35ADF3" stroke-width="2"/>
+                            <path d="M8 12H16M12 8V16" stroke="#35ADF3" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>渠道代理政策</h3>
+                    <p>提供具有竞争力的返点政策、全方位的技术培训支持、市场活动支持。寻找具有本地医疗资源的优质渠道，共同开拓智慧医疗市场。</p>
+                    <a href="#" class="eco-link">申请成为代理商 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="2"/></svg></a>
+                </div>
+                
+                <div class="eco-card">
+                    <div class="eco-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M4 14L8 10L12 14L16 6" stroke="#62D0EC" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>投资人关系 (IR)</h3>
+                    <p>港股健康之路 (HK2587) 集团旗下，拥有成熟的"应用 + 运营 + 生态"商业模式闭环。欢迎了解我们的市场前景和投资价值。</p>
+                    <a href="#" class="eco-link">查看财报/商业计划书 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="2"/></svg></a>
+                </div>
+                
+                <div class="eco-card">
+                    <div class="eco-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <rect x="4" y="8" width="16" height="12" rx="2" stroke="#35ADF3" stroke-width="2"/>
+                            <path d="M8 12H16M8 14H16" stroke="#35ADF3" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>加入智医科技</h3>
+                    <p>秉持"患者第一、医院第二、股东第三、员工第四"的价值观，寻找热爱医疗科技的有志之士，共创未来。</p>
+                    <a href="#" class="eco-link">查看热招职位 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="2"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 底部 -->
+    <footer>
+        <!-- 联系转化区 -->
+        <div class="footer-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <div class="cta-text">
+                        <h2>想进一步了解<span>智医科技的产品和服务</span></h2>
+                        <p>您可以通过多种方式联系我们，我们将及时安排合适的产品和咨询专家为您提供解答和服务</p>
+                    </div>
+                    <div class="cta-actions">
+                        <div class="qr-box">
+                            <div class="qr-placeholder">
+                                <svg width="96" height="96" viewBox="0 0 96 96" fill="none">
+                                    <rect width="96" height="96" rx="8" fill="#222222"/>
+                                    <rect x="16" y="16" width="20" height="20" fill="#35ADF3"/>
+                                    <rect x="60" y="16" width="20" height="20" fill="#35ADF3"/>
+                                    <rect x="16" y="60" width="20" height="20" fill="#35ADF3"/>
+                                    <rect x="44" y="44" width="8" height="8" fill="#62D0EC"/>
+                                    <rect x="60" y="60" width="20" height="20" fill="#62D0EC"/>
+                                </svg>
+                            </div>
+                            <span>智医官方微信</span>
+                        </div>
+                        <div class="cta-contact">
+                            <p class="cta-label">扫码获取免费咨询</p>
+                            <p class="cta-phone">最新活动热线：<span class="phone-number">400-XXX-XXXX</span></p>
+                            <button class="btn btn-primary btn-large">联系我们</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 页脚导航 -->
+        <div class="footer-nav">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <svg class="logo-icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="12,78 35,18 78,18 55,78" fill="#62D0EC"/>
+                                <polygon points="26,88 49,28 92,28 69,88" fill="#35ADF3"/>
+                                <path d="M 45 43 h 10 v -10 h 10 v 10 h 10 v 10 h -10 v 10 h -10 v -10 h -10 z" fill="#FFFFFF"/>
+                            </svg>
+                            <div class="footer-logo-text">
+                                <span>智医科技</span>
+                                <small>让医疗服务更智慧</small>
+                            </div>
+                        </div>
+                        <div class="footer-contact">
+                            <div>
+                                <strong>电话</strong>
+                                <p>400-XXX-XXXX</p>
+                            </div>
+                            <div>
+                                <strong>邮箱</strong>
+                                <p>chench@intelmt.com</p>
+                            </div>
+                            <div>
+                                <strong>地址</strong>
+                                <p>福州市仓山区建新镇金洲北路 33 号<br>瑞科医药健康产业园 4 号楼 B 栋 301 室</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <div class="footer-col">
+                            <h4>智医产品</h4>
+                            <ul>
+                                <li><a href="#">智慧医院</a></li>
+                                <li><a href="#">智慧支付</a></li>
+                                <li><a href="#">互联网医院</a></li>
+                                <li><a href="#">全病程管理</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>解决方案</h4>
+                            <ul>
+                                <li><a href="#">就医全旅程</a></li>
+                                <li><a href="#">患者管理</a></li>
+                                <li><a href="#">互联网医院</a></li>
+                                <li><a href="#">智慧服务评级</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>走进智医</h4>
+                            <ul>
+                                <li><a href="#">关于智医</a></li>
+                                <li><a href="#">客户案例</a></li>
+                                <li><a href="#">行业洞察</a></li>
+                                <li><a href="#">加入我们</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>关注我们</h4>
+                            <div class="social-links">
+                                <a href="#" class="social-link">微信</a>
+                                <a href="#" class="social-link">微博</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-copyright">
+                    <p>2014-2026 All Rights Reserved 福州智医科技股份有限公司</p>
+                    <p>闽 B2-20090074 闽 ICP 备 05019666</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
