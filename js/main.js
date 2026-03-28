@@ -120,32 +120,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // ========================================
-// 滚动动画 - 元素淡入效果
+// 初始化
 // ========================================
-const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -100px 0px'
-};
-
-const observer = new IntersectionObserver(function(entries) {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.style.opacity = '1';
-            entry.target.style.transform = 'translateY(0)';
-        }
-    });
-}, observerOptions);
-
-// 观察需要动画的元素
 document.addEventListener('DOMContentLoaded', function() {
-    const animateElements = document.querySelectorAll('.solution-card, .eco-card');
-    animateElements.forEach(el => {
-        el.style.opacity = '0';
-        el.style.transform = 'translateY(30px)';
-        el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-        observer.observe(el);
-    });
-    
     // 初始化背景
     document.getElementById('casesBg').style.backgroundImage = `url(${casesData.comprehensive.bg})`;
 });
