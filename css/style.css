@@ -603,9 +603,8 @@ body {
 
 .insights-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
-    flex: 1;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px 48px;
 }
 
 .insight-card {
@@ -614,36 +613,45 @@ body {
     gap: 12px;
     color: #BEE3F8;
     text-decoration: none;
-    font-size: 13px;
-    transition: color 0.3s ease;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .insight-card:hover {
     color: var(--color-white);
+    border-bottom-color: var(--color-blue);
 }
 
 .insight-tag {
     font-weight: 700;
-    color: var(--color-white);
+    color: var(--color-blue);
     white-space: nowrap;
+    min-width: 60px;
 }
 
 .insight-card h3 {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     flex: 1;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    color: rgba(255, 255, 255, 0.9);
+    transition: color 0.3s ease;
+}
+
+.insight-card:hover h3 {
+    color: var(--color-blue);
 }
 
 .insight-card svg {
     opacity: 0.4;
-    transition: opacity 0.3s ease;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
 }
 
 .insight-card:hover svg {
     opacity: 1;
+    transform: translateX(4px);
 }
 
 /* 悬浮联系按钮 */
